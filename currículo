@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Dexter Morgan</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        .all {
+            width: 60%;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+            animation: fadeIn 1s ease;
+        }
+
+        
+        .header {
+            text-align: center;
+        }
+
+        .header img {
+            width: 150px;
+            border-radius: 30%;
+            transition: 0.4s ease;
+        }
+
+        .header img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        
+        h1 {
+            margin: 10px 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            color: #333;
+        }
+
+        
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        
+        .perfil,
+        .competencias,
+        .formacao,
+        .experiencia,
+        .contato {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        
+        .perfil:hover,
+        .competencias:hover,
+        .formacao:hover,
+        .experiencia:hover,
+        .contato:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        
+        .contato img {
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="all">
+
+    <div class="header">
+        <img src="https://i.scdn.co/image/ab67616d00001e028b509af5327743b4aab33245" alt="Dexter">
+        <h1>Dexter Morgan</h1>
+    </div>
+
+    <div class="perfil">
+        <h2>Perfil</h2>
+        <p>Atuar na área de análise forense, aplicando técnicas avançadas de investigação científica para resolução de crimes complexos.</p>
+        <p>Especialista em análise de padrões de manchas de sangue, com ampla experiência em investigações criminais. Profissional altamente analítico, metódico e detalhista.</p>
+    </div>
+
+    <div class="competencias">
+        <h2>Principais Competências</h2>
+        <ul>
+            <li>Análise de padrões de manchas de sangue</li>
+            <li>Investigação criminal</li>
+            <li>Pensamento lógico e analítico</li>
+            <li>Atenção extrema aos detalhes</li>
+            <li>Trabalho sob pressão</li>
+            <li>Discrição e confidencialidade</li>
+        </ul>
+    </div>
+
+    <div class="formacao">
+        <h2>Formação Acadêmica</h2>
+        <p>Bacharelado em Ciências Forenses<br>Universidade de Miami</p>
+    </div>
+
+    <div class="experiencia">
+        <h2>Experiência Profissional</h2>
+        <p><strong>Departamento de Polícia de Miami Metro</strong></p>
+        <ul>
+            <li>Análise detalhada de cenas de crime</li>
+            <li>Produção de relatórios técnicos</li>
+            <li>Colaboração com detetives</li>
+            <li>Interpretação de padrões de sangue</li>
+
+            <a href="http://127.0.0.1:5500/trabalho1/experiencia.html">Veja as experiência profissional em detalhes</a>
+        </ul>
+    </div>
+
+    <div class=" contato">
+        <h2>Contato</h2>
+        <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyvMvyiWAo_SWhBTJSV26mYEYGadu3k8pWQ&s" width="20"> Miami, Flórida</p>
+        <p><img src="https://img.favpng.com/13/21/11/whatsapp-logo-computer-icons-png-favpng-wMENFvu5MVSPHJBMEHuwGNSZr.jpg" width="20"> (555) 123-4567</p>
+        <p><img src="https://static.vecteezy.com/system/resources/thumbnails/002/205/854/small/email-icon-free-vector.jpg" width="20"> dexter.morgan@forense.com</p>
+    </div>
+
+</div>
+
+</body>
+</html>
