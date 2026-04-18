@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiência Profissional</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .all {
+            width: 60%;
+            margin: 30px auto;
+            background: rgb(255, 255, 255);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="all">
+
+    <h2>Experiência Profissional</h2>
+
+    <p>
+        Ao longo de sua atuação no Departamento de Polícia de Miami Metro, Dexter Morgan desenvolveu uma trajetória profissional marcada por precisão técnica e alto nível de especialização na análise de padrões de manchas de sangue.
+    </p>
+
+    <p>
+        Sua rotina envolve a investigação minuciosa de cenas de crime, onde aplica métodos científicos para interpretar a dinâmica dos eventos, identificando posições das vítimas, trajetórias de impacto e possíveis sequências de ação.
+    </p>
+
+    <p>
+        Além da análise prática, Dexter é responsável pela elaboração de relatórios periciais detalhados, utilizados como suporte em processos judiciais. Esses documentos exigem rigor técnico, clareza e objetividade.
+    </p>
+
+    <p>
+        Sua experiência também inclui a colaboração constante com detetives e outros profissionais da área forense, participando ativamente de investigações de homicídios complexos.
+    </p>
+
+    <p>
+        Outro aspecto relevante é sua capacidade de atuar sob pressão, mantendo o controle emocional mesmo em situações críticas, sempre com discrição e confidencialidade.
+    </p>
+
+    <p>
+        Com o tempo, Dexter consolidou-se como uma referência técnica em sua área, sendo reconhecido pela consistência de suas análises e pela confiabilidade de seus resultados.
+    </p>
+    
+    <a href="http://127.0.0.1:5500/trabalho1/index.html"><h1>BACK</h1></a>
+    
+</div>
+    
+</body>
+</html>
